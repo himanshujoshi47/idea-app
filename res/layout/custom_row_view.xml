@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:orientation="vertical" 
+ android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:background="@drawable/bg">
+    
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+    <TextView style="@style/TextColor" 
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Case Id : "/>
+  <TextView style="@style/TextColor"  android:id="@+id/caseid"
+  android:textSize="13sp" 
+  android:textStyle="bold" 
+   android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"/>
+  </LinearLayout>
+  
+ <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+  <TextView style="@style/TextColor" 
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="CPV Number : "/>
+  <TextView style="@style/TextColor"  android:id="@+id/cpvnumber"
+  android:textSize="13sp" 
+  android:textStyle="bold" 
+   android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"/>
+  </LinearLayout>
+ 
+ <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+  <TextView style="@style/TextColor" 
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="CPV Date : "/>
+  <TextView style="@style/TextColor"  android:id="@+id/cpvdate"
+  android:textSize="13sp" 
+  android:textStyle="bold" 
+   android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"/> 
+</LinearLayout>
+
+ <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+  <TextView style="@style/TextColor" 
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Name : "/>
+  <TextView style="@style/TextColor"  android:id="@+id/name"
+  android:textSize="13sp" 
+  android:textStyle="bold" 
+   android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"/> 
+ </LinearLayout>
+ 
+ <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+ <TextView style="@style/TextColor" 
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Mobile : "/>
+  <TextView style="@style/TextColor"  android:id="@+id/mobile"
+  android:textSize="13sp" 
+  android:textStyle="bold" 
+   android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"/> 
+ </LinearLayout>
+  
+ <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+<TextView style="@style/TextColor" 
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Alternate Number : "/>
+  <TextView style="@style/TextColor"  android:id="@+id/alternatenumber"
+  android:textSize="13sp" 
+  android:textStyle="bold" 
+   android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"/> 
+  </LinearLayout>
+  
+ <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+  <TextView style="@style/TextColor" 
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Residence Address : "/>
+  <TextView style="@style/TextColor"  android:id="@+id/resiaddress"
+  android:textSize="13sp" 
+  android:textStyle="bold" 
+   android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"/> 
+  </LinearLayout>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content" >
+
+     <TextView style="@style/TextColor"
+         android:id="@+id/pincode"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="..." />
+
+ </LinearLayout>
+
+</LinearLayout>

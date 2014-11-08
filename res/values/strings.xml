@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CPV SOLUTION</string>
+     <string name="app_title">Powered By Phoenix Technoz</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="addType">Address Type</string>
+    <string-array name="valueforaddType">
+        <item >RESI_ADD</item>
+        <item >OFFI_ADD</item>
+        <item >RESI/OFFI_ADD</item>
+        <item >NOT CONFIRM</item>
+    </string-array>
+    <string name="addVerify">Address verified</string>
+    <string-array name="choice">
+        <item >YES</item>
+        <item >NO</item>
+  </string-array>
+    <string-array name="choicen">
+        <item >NO</item>
+        <item >YES</item>
+    </string-array>
+    <string-array name="neighbours">
+        <item>YES</item>
+        <item>NOT CONFIRM</item>
+        <item>NOT APPLICABLE</item>
+    </string-array>
+    <string-array name="area">
+        <item>&gt;200</item>
+        <item>151-200</item>
+        <item>101-150</item>
+        <item>75-100</item>
+        <item>&lt;75</item>
+    </string-array>
+     <string-array name="locality">
+        <item>Upper Middle Class</item>
+        <item>Posh</item>
+        <item>Middle Class</item>
+        <item>Lower Middle Class</item>
+        <item>Commerical Area</item>
+        <item>Slum</item>
+    </string-array>
+     <string-array name="type">
+        <item>Independent House</item>
+        <item>Bunglaw</item>
+        <item>Flat</item>
+        <item>Slum</item>
+        <item>Temporary Shed</item>
+        <item>Part Of independent House</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="ownership">
+        <item>Self</item>
+        <item>Company Provided</item>
+        <item>Parents</item>
+        <item>Rented</item>
+        <item>Govt. Provided</item>
+        <item>Relative</item>
+        <item>Paying Guest</item>
+        <item>Bachelor Accommodation / Hostel</item>
+        <item>No Info</item>
+    </string-array>
+    <string-array name="approach">
+        <item>Tarmac Road -Car Approach</item>
+        <item>Small Street - Two wheeler Approach</item>
+        <item>Congested Street</item>
+        <item>Kuchha Road</item>
+    </string-array>
+    <string-array name="location">
+        <item>Easy to Locate</item>
+        <item>Needed Assistance</item>
+        <item>Difficult to find</item>
+        <item>Not Found</item>
+    </string-array>
+    <string-array name="exterior">
+        <item>Painted</item>
+        <item>Painted - Not Maintained</item>
+        <item>Not Painted</item>
+    </string-array>
+    <string-array name="interior">
+        <item>Painted + Fully Furnished</item>
+        <item>Painted + Partially Furnished</item>
+        <item>Unpainted + Unfurnished</item>
+        <item>No info</item>
+    </string-array>
+    <string-array name="contact">
+        <item>Positve</item>
+        <item>Neutral</item>
+        <item>Negative</item>
+    </string-array>
+    <string-array name="structure">
+        <item>Joint</item>
+        <item>Single</item>
+        <item>No Info</item>
+    </string-array>
+    <string-array name="status">
+        <item>Married + Spouse Unemployed</item>
+    	<item>Married + Spouse Employed</item>
+    	<item>Single</item>
+    </string-array>
+    <string-array name="organization">
+        <item>Salaried - MNC / Public Ltd / Govt</item>
+        <item>Business Large</item>
+        <item>Salaried - Others</item>
+        <item>Salaried - BPO/Call Center</item>
+        <item>Business Small</item>
+        <item>Self Employed</item>
+        <item>Retired</item>
+        <item>Housewife</item>
+        <item>Student</item>
+        <item>Info Not Available</item>
+    </string-array>
+    <string-array name="profession">
+        <item>Partner/Propritor</item>
+        <item>Director/MD</item>
+        <item>Senior</item>
+        <item>Middle</item>
+        <item>Junior</item>
+        <item>Professional</item>
+        <item>Info not Available</item>
+    </string-array>
+    <string-array name="year">
+        <item>&gt;4 Years</item>
+        <item>03-04 Years</item>
+        <item>02-03 Years</item>
+        <item>01-02 Years</item>
+        <item>&lt;1 Year</item>
+        <item>Info Not Available </item>
+    </string-array>
+    <string-array name="car">
+        <item>Two Wheeler</item>
+        <item>Luxury / Big Car</item>
+        <item>Small Car</item>
+        
+        <item>Info Not Available</item>
+    </string-array>
+    <string-array name="qualification">
+        <item>Graduate</item>
+        <item >Professional</item>
+        <item>Post Graduate</item>
+        
+        <item>Under Graduate</item>
+    </string-array>
+    <string-array name="rating">
+        <item>AVERAGE</item>
+        <item>EXCELLENT</item>
+        <item>VERY GOOD</item>
+        <item>GOOD</item>
+        
+        <item>NOT APPLICABLE</item>
+    </string-array>
+    <string-array name="cpvStatus">
+        <item>NEGATIVE</item>
+        <item>POSITIVE</item>
+        <item>HOLD</item>
+    </string-array>
+    <string-array name="cpvRemarks">
+<item>Ngtv-Not Contactable</item>
+<item>Ngtv-Door Locked</item>
+<item>Ngtv-Pending on Customer</item>
+<item>Ngtv-Customer shifted</item>
+<item>Ngtv-Short address</item>
+<item>Ngtv-Customer NotFoundAtAdress</item>
+<item>Ngtv-Address not found</item>
+<item>Ngtv-Customer unaware of sale</item>
+<item>Ngtv-Backward Lowlying address</item>
+<item>Ngtv-Customer Premise Locked</item>
+<item>Ngtv-Missed CPV Appointment</item>
+<item>Ngtv-Out Of station</item>
+<item>Ngtv-No Requirement</item>
+<item>Ngtv-Incomplete Document</item>
+<item>Ngtv-Wrong Sale</item>
+<item>Ngtv-Fraud Sale</item>
+<item>Ngtv-Incomplete Details</item>
+<item>Positive</item>
+
+    </string-array>
+</resources>
